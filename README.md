@@ -23,6 +23,8 @@ FEATURES
 > Send tweet with attached photo
 > Tweet photo with no accompanying text.
 > Exit client
+> Success/failure sending tweet
+> Cancel option
 
 
 
