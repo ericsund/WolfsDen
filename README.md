@@ -2,19 +2,10 @@ Wolf's Den
 ========
 
 Wolf's Den - a lightweight Twitter client in Python
-__        __   __  __        _____
-\ \      / /__ | |/ _( )___  |  _ \  ___ _ __  
- \ \ /\ / / _ \| | |_|// __| | | | |/ _ \ '_ \ 
-  \ V  V / (_) | |  _| \__ \ | |_| |  __/ | | |
-   \_/\_/ \___/|_|_|   |___/ |____/ \___|_| |_|
+Copyright (C) 2013  Eric Sund
+epsund@e2esolution.com
 
-|----------------------------------------------------------|
-|Wolf's Den - a lightweight Twitter client in Python       |
-|Copyright (C) 2013  Eric Sund                             |
-|epsund@e2esolution.com                                    |
-|                                                          |
-|The full GNU GPLv3 license is found at /LICENSE.txt	     |
-|----------------------------------------------------------|
+The full GNU GPLv3 license is found at /LICENSE.txt
 
 SUMMARY
 
@@ -46,9 +37,9 @@ UPCOMING FEATURES
 
 INSTALLATION NOTICES - See /INSTALL.txt
 
-1.  As of now Wolf's Den runs explicitly with Python 2.x+.  Its dependencies do not support Python 3.x+ currently.
+> 1.  As of now Wolf's Den runs explicitly with Python 2.x+.  Its dependencies do not support Python 3.x+ currently.
 Problems running because of Tkinter?  Install it to setup Python with Tk.
-
+>
 	Arch:
 	sudo pacman -S tk
 	Debian:
@@ -56,8 +47,8 @@ Problems running because of Tkinter?  Install it to setup Python with Tk.
 	Fedora:
 	sudo yum install tk
 
-2.  No module named setuptools?  Run these commands:
-
+> 2.  No module named setuptools?  Run these commands:
+>
 	wget http://python-distribute.org/distribute_setup.py
 	sudo python2 distribute_setup.py install
 
@@ -73,7 +64,7 @@ Wolf's Den makes use of the following unmodified libraries:
 
 
 BUGS
-None currently known
+> None currently known
 
 
 
