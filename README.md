@@ -41,11 +41,11 @@ INSTALLATION NOTICES - See /INSTALL.txt
 Problems running because of Tkinter?  Install it to setup Python with Tk.
 >
 	Arch:
-	sudo pacman -S tk
+	sudo pacman -S tk  (or tk-python)
 	Debian:
-	sudo apt-get install tk
+	sudo apt-get install tk  (or tk-python)
 	Fedora:
-	sudo yum install tk
+	sudo yum install tk  (or tk-python)
 
 > 2.  No module named setuptools?  Run these commands:
 >
