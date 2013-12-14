@@ -7,7 +7,7 @@ __        __    _  __ _       ____
 
 |----------------------------------------------------------|
 |Wolf's Den - a lightweight Twitter client in Python       |
-|Copyright (C) 2013  Eric Sund	          		   |
+|Copyright (C) 2013  Eric Sund                             |
 |                                                          |
 |The full GNU GPLv3 license is found at /LICENSE.txt	   |
 |----------------------------------------------------------|
@@ -68,7 +68,7 @@ t = Twython(consumer_key, consumer_secret, accessKey, accessSecret)
 
 tweetErrors = (
 ("There was a problem sending your tweet!  Check your network connection and userkeys file!"),
-("You've reached the maximum API calls!  Wait before trying agin."),
+("You've reached the maximum API calls!  Wait before trying again."),
 ("Problem! - Wolf's Den")
 )
 
@@ -111,7 +111,9 @@ while on:
       else:
         if s == "":
           tweetAttempt()
+	  tweeting = False
         if s != "":
           tweetAttempt()
+	  tweeting = False
   elif menu == "Close":
     on = False
