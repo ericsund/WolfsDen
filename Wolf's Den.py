@@ -49,7 +49,7 @@ if authTrue == "0":  #if no authentication
 	accessSecret = str(accessSecret)
 	#save user keys
 	with open('userkeys.txt', 'r') as file:
-	    	fileContents = file.readlines()
+		fileContents = file.readlines()
 	fileContents[0] = "1\n"
 	fileContents[1] = accessKey + "\n"
 	fileContents[2] = accessSecret + "\n"
@@ -85,7 +85,7 @@ def tweetAttempt(): #media syntax
 
 on = True
 while on:
-  menu = buttonbox(" ", "Wolf's Den", ["Tweet", "Tweet Photo", "Close"])
+  menu = buttonbox(" ", "Wolf's Den", ["Tweet", "Tweet Photo", "Close", "Sign Out"])
   if menu == "Tweet":
     tweeting = True
     while tweeting:
@@ -117,3 +117,12 @@ while on:
 	  tweeting = False
   elif menu == "Close":
     on = False
+  elif menu == "Sign Out":
+	  with open('userkeys.txt', 'r') as file:
+		  fileContents = file.readlines()
+          fileContents[0] = "0\n"
+          fileContents[1] = "\n"
+          fileContents[2] = "\n"
+	  with open('userkeys.txt', 'w') as file:
+		  file.writelines(fileContents)
+	  on = False
