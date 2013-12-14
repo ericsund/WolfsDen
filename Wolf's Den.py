@@ -121,7 +121,7 @@ while on:
 	  with open('userkeys.txt', 'r') as file:
 		  fileContents = file.readlines()
           fileContents[0] = "0\n"
-          fileContents[1] = "\n"
+          fileContents[1] = "\n"  #set access secret and key to blank lines
           fileContents[2] = "\n"
 	  with open('userkeys.txt', 'w') as file:
 		  file.writelines(fileContents)
