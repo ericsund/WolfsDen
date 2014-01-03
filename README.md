@@ -17,21 +17,31 @@ It makes use of Twitter's v1.1 API and several other modules.
 FEATURES
 
 > Interaction with Twitter v1.1 API
+<<<<<<< HEAD
 > Authenticate and deauthenticate user
+=======
+> Authenticate user
+>>>>>>> f96e8d0e9a9043e0c728cd60b08e18ef5c5e9bb3
 > Remember user authentication on restart
 > Send tweet
 > Send tweet with attached photo
 > Tweet photo with no accompanying text.
 > Exit client
+<<<<<<< HEAD
 > Success/failure while making API calls
 > Cancel option
 > Update profile photo
+=======
+> Success/failure sending tweet
+> Cancel option
+>>>>>>> f96e8d0e9a9043e0c728cd60b08e18ef5c5e9bb3
 
 
 
 UPCOMING FEATURES
 
 > Live Character count
+<<<<<<< HEAD
 > Timeline view
 > Mentions and direct messages view
 > Update cover and background photos
@@ -50,6 +60,14 @@ CHANGE LOG
 	Loop issues with menus fixed
 	Change log created
 
+=======
+> Multiple user support
+> Timeline view
+> Mentions and direct messages view
+
+
+
+>>>>>>> f96e8d0e9a9043e0c728cd60b08e18ef5c5e9bb3
 INSTALLATION NOTICES - See /INSTALL.txt
 
 > 1.  As of now Wolf's Den runs explicitly with Python 2.x+.  Its dependencies do not support Python 3.x+ currently.
@@ -79,7 +97,11 @@ Wolf's Den makes use of the following unmodified libraries:
 
 
 BUGS
+<<<<<<< HEAD
 > Pressing cancel in easygui.fileopenbox() returns NoneType error
+=======
+> None currently known
+>>>>>>> f96e8d0e9a9043e0c728cd60b08e18ef5c5e9bb3
 
 
 

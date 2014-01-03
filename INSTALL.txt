@@ -1,0 +1,46 @@
+-- Installation Instructions for Wolf's Den --
+
+1.  Install Python 2:
+
+	Arch:
+	sudo pacman -S python2
+	Debian:
+	sudo apt-get install python2
+	Fedora:
+	sudo yum install python2
+
+2.  Install dependencies:
+
+	cd ./modules/"Easy GUI"
+	sudo python2 setup.py install
+	cd ..
+	cd ./tweepy-2.1/
+	sudo python2 setup.py install
+	cd ..
+	cd ./twython-3.1.0/
+	sudo python2 setup.py install
+	
+	
+INSTALLATION NOTICES
+
+1.  As of now Wolf's Den runs explicitly with Python 2.x+.  Its dependencies do not support Python 3.x+ currently.
+Problems running because of Tkinter?  Install it to setup Python with Tk.
+
+	Arch:
+	sudo pacman -S tk
+	Debian:
+	sudo apt-get install tk
+	Fedora:
+	sudo yum install tk
+
+2.  No module named setuptools?  Run these commands:
+
+	wget http://python-distribute.org/distribute_setup.py
+	sudo python2 distribute_setup.py install
+	
+-- Running Instructions for Wolf's Den --	
+
+1.  Be in the directory "Wolf's Den.py" is in.  You can also move this main file out of the folder it came in.
+
+2.  Run the command:
+	python2 "Wolf's Den.py"
