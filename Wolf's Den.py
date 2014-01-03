@@ -85,7 +85,6 @@ def tweetAttempt(): #media syntax
 
 on = True
 while on:
-<<<<<<< HEAD
   menu = buttonbox(" ", "Wolf's Den", ["Tweet", "Customize", "Close", "Sign Out"])
   if menu == "Tweet":
 	INtweetmenu = True
@@ -156,51 +155,13 @@ while on:
 			  msgbox("In development")
 		  elif customizeMenu == "Back":
 			  customizing = False			  
-=======
-  menu = buttonbox(" ", "Wolf's Den", ["Tweet", "Tweet Photo", "Close", "Sign Out"])
-  if menu == "Tweet":
-    tweeting = True
-    while tweeting:
-      s = enterbox("What's happening?", "New Tweet")
-      if s == None: tweeting = False
-      else:
-        try:
-          t.update_status(status = s)
-          tweeting = False
-        except twython.TwythonError:
-          msgbox(tweetErrors[0], tweetErrors[2], "Try Again!")
-        except twython.TwythonRateLimitError:
-          msgbox(tweetErrors[1], tweetErrors[2], "Okay")
-        else:
-          msgbox("Tweet sent!", "Wolf's Den", "Okay")
-  elif menu == "Tweet Photo":
-    tweeting = True
-    while tweeting:
-      m = fileopenbox("Select Media - Wolf's Den", "Tweet Photo")
-      m = open(m, "r")
-      s = enterbox("Say something about this photo!", "Tweet Photo")
-      if s == None: tweeting = False
-      else:
-        if s == "":
-          tweetAttempt()
-	  tweeting = False
-        if s != "":
-          tweetAttempt()
-	  tweeting = False
->>>>>>> f96e8d0e9a9043e0c728cd60b08e18ef5c5e9bb3
   elif menu == "Close":
     on = False
   elif menu == "Sign Out":
 	  with open('userkeys.txt', 'r') as file:
-<<<<<<< HEAD
 		  fileContents = file.readlines() #set access secret and key to blank lines
           fileContents[0] = "0\n"
           fileContents[1] = "\n"
-=======
-		  fileContents = file.readlines()
-          fileContents[0] = "0\n"
-          fileContents[1] = "\n"  #set access secret and key to blank lines
->>>>>>> f96e8d0e9a9043e0c728cd60b08e18ef5c5e9bb3
           fileContents[2] = "\n"
 	  with open('userkeys.txt', 'w') as file:
 		  file.writelines(fileContents)
