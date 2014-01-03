@@ -40,6 +40,10 @@ UPCOMING FEATURES
 
 CHANGE LOG
 
+> January 15, 2014
+>
+	Changes to push authentication through HTTPS
+
 > January 2, 2014
 >
 	Tweet options integrated into sub-menu
