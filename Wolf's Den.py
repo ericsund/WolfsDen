@@ -7,7 +7,7 @@ __        __    _  __ _       ____
 
 |----------------------------------------------------------|
 |Wolf's Den - a lightweight Twitter client in Python       |
-|Copyright (C) 2013  Eric Sund                             |
+|Copyright (C) 2014  Eric Sund                             |
 |                                                          |
 |The full GNU GPLv3 license is found at /LICENSE.txt	   |
 |----------------------------------------------------------|
@@ -38,7 +38,7 @@ readKeysExist = KeysExist.readline()
 authTrue = readKeysExist[0]
 if authTrue == "0":  #if no authentication
 	#get user keys
-	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+	auth = tweepy.auth.OAuthHandler(consumer_key, consumer_secret, secure = True)
 	auth_url = auth.get_authorization_url()
 	enterbox("Please obtain your PIN here: ", "Authorize Wolf's Den", auth_url)
 	pin = enterbox('Enter PIN: ').strip()
