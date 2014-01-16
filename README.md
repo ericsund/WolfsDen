@@ -2,8 +2,8 @@ Wolf's Den
 ========
 
 Wolf's Den - a lightweight Twitter client in Python
-Copyright (C) 2013  Eric Sund
-epsund@e2esolution.com
+Copyright (C) 2014  Eric Sund
+ericsund@pyroh.tk
 
 The full GNU GPLv3 license is found at /LICENSE.txt
 
@@ -17,7 +17,7 @@ It makes use of Twitter's v1.1 API and several other modules.
 FEATURES
 
 > Interaction with Twitter v1.1 API
-> Authenticate and deauthenticate user
+> Authenticate and deauthenticate user - through HTTPS (NEW!)
 > Remember user authentication on restart
 > Send tweet
 > Send tweet with attached photo
@@ -39,6 +39,10 @@ UPCOMING FEATURES
 
 
 CHANGE LOG
+
+> January 15, 2014
+>
+	Added authentication through HTTPS
 
 > January 2, 2014
 >
