@@ -2,11 +2,12 @@
 
 
 |----------------------------------------------------------|
-|Copyright (C) 2013  Eric Sund							   |
-|ericsund@pyrok.tk									   |
-|														   |
-|The full GNU GPLv3 license is found at /LICENSE.txt	   |
-|														   |
+|Wolf's Den - a lightweight Twitter client in Python       |
+|Copyright (C) 2013  Eric Sund                             |
+|epsund@e2esolution.com                                    |
+|                                                          |
+|The full GNU GPLv3 license is found at /LICENSE.txt       |
+|                                                          |
 |This file contains the user's OAuth access key and secret.|
-|You might want to keep this file safe!					   |
+|You might want to keep this file safe!                    |
 |----------------------------------------------------------|
