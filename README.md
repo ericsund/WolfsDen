@@ -2,8 +2,8 @@ Wolf's Den
 ========
 
 Wolf's Den - a lightweight Twitter client in Python
-Copyright (C) 2013  Eric Sund
-epsund@e2esolution.com
+Copyright (C) 2014  Eric Sund
+ericsund@pyroh.tk
 
 The full GNU GPLv3 license is found at /LICENSE.txt
 
@@ -70,4 +70,4 @@ BUGS
 
 
 
-If you have any questions, comments or concerns, please email epsund@e2esolution.com.
+If you have any questions, comments or concerns, please email ericsund@pyroh.tk.
