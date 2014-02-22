@@ -11,8 +11,8 @@ This program is free software; you can redistribute it and/or modify it under th
 See the GNU General Public License for more details.  You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 See License.txt for more information.
 
-The full GNU GPLv3 license is found at /LICENSE.txt
---
+### The full GNU GPLv3 license is found at /LICENSE.txt
+
 
 SUMMARY
 
@@ -24,13 +24,21 @@ It makes use of Twitter's v1.1 API and several other modules.
 FEATURES
 
 > Interaction with Twitter v1.1 API
+
 > Authenticate user
+
 > Remember user authentication on restart
+
 > Send tweet
+
 > Send tweet with attached photo
+
 > Tweet photo with no accompanying text.
+
 > Exit client
+
 > Success/failure sending tweet
+
 > Cancel option
 
 
@@ -38,8 +46,11 @@ FEATURES
 UPCOMING FEATURES
 
 > Live Character count
+
 > Multiple user support
+
 > Timeline view
+
 > Mentions and direct messages view
 
 
@@ -67,7 +78,9 @@ ACKNOWLEDGEMENTS
 
 Wolf's Den makes use of the following unmodified libraries:
 > EasyGUI 0.96 Copyright (c) 2010, Stephen Raymond Ferg (Revised BSD License)
+
 > Tweepy 2.1 Copyright (c) 2009-2010 Joshua Roesslein (MIT License)
+
 > Twython 3.1.0 Copyright (c) 2013 Ryan McGrath (MIT License)
 
 
