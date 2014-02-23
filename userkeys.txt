@@ -3,8 +3,8 @@
 
 |----------------------------------------------------------|
 |Wolf's Den - a lightweight Twitter client in Python       |
-|Copyright (C) 2013  Eric Sund                             |
-|epsund@e2esolution.com                                    |
+|Copyright (C) 2014  Eric Sund                             |
+|ericsund@pyroh.tk                                         |
 |                                                          |
 |The full GNU GPLv3 license is found at /LICENSE.txt       |
 |                                                          |
