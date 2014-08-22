@@ -4,7 +4,7 @@
 |----------------------------------------------------------|
 |Wolf's Den - a lightweight Twitter client in Python       |
 |Copyright (C) 2014  Eric Sund                             |
-|ericsund@pyroh.tk                                         |
+|ericsund@ericsund.tk                                      |
 |                                                          |
 |The full GNU GPLv3 license is found at /LICENSE.txt       |
 |                                                          |
