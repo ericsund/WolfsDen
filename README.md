@@ -2,8 +2,7 @@ Wolf's Den
 ========
 
 Wolf's Den - a lightweight Twitter client in Python
-Copyright (C) 2014  Eric Sund
-ericsund@ericsund.tk
+Copyright (C) Eric Sund
 
 --
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or
@@ -42,19 +41,6 @@ FEATURES
 > Cancel option
 
 
-
-UPCOMING FEATURES
-
-> Live Character count
-
-> Multiple user support
-
-> Timeline view
-
-> Mentions and direct messages view
-
-
-
 INSTALLATION NOTICES - See /INSTALL.txt
 
 > 1.  As of now Wolf's Den runs explicitly with Python 2.x+.  Its dependencies do not support Python 3.x+ currently.
@@ -90,4 +76,4 @@ BUGS
 
 
 
-If you have any questions, comments or concerns, please email ericsund@ericsund.tk.
+If you have any questions, comments or concerns, please email epsund@gmail.com.
