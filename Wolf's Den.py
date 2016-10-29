@@ -7,7 +7,7 @@ __        __    _  __ _       ____
 
 |----------------------------------------------------------|
 |Wolf's Den - a lightweight Twitter client in Python       |
-|Copyright (C) 2014  Eric Sund                             |
+|Copyright (C) Eric Sund                                   |
 |                                                          |
 |The full GNU GPLv3 license is found at /LICENSE.txt	   |
 |----------------------------------------------------------|
@@ -20,8 +20,6 @@ Wolf's Den makes use of the following unmodified libraries:
 Bugs:
 None currently known
 
-Times told to stop coding by dad:
-1
 """
 #!/usr/bin/env python
 import sys, os, twython, easygui, tweepy
